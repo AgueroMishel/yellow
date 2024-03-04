@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "cy:version": "./node_modules/cypress/bin/cypress -v",
+    "cy:open": "./node_modules/cypress/bin/cypress open",
+    "cy:run": "./node_modules/cypress/bin/cypress run",
+    "cy:local-api": "./node_modules/cypress/bin/cypress run --config-file config/local-api.config.js",
+    "cy:local-api-open": "./node_modules/cypress/bin/cypress open --config-file config/local-api.config.js"
+  },
+  "engines": {
+    "node": "20.11.0"
+  },
+  "devDependencies": {
+    "cypress": "13.6.6"
+  }
+}
